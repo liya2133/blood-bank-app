@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Nav from './Nav'
 
 
 const ViewBank = () => {
@@ -18,6 +19,7 @@ const ViewBank = () => {
     )
   return (
     <div>
+        <Nav />
             <div className="container mt-4">
         <h2 className="text-center mb-4">
           <b><i>View Course</i></b>
